@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Edjaydan S. Ocampo — Book Writer, Essayist, and Cultural Storyteller. Explore manuscripts, sample excerpts, campus journalism, and civic leadership."
+  />
+  <title>Edjaydan S. Ocampo — Book Writer &amp; Storyteller</title>
+
+  <!-- Google Fonts: Cormorant Garamond (Display) + Newsreader (Optical Reading Serif) + Plus Jakarta Sans + JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,500;1,700&family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor-glow" id="cursor-glow" aria-hidden="true"></div>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- Top Navigation Masthead -->
+  <header class="masthead">
+    <div class="container masthead-inner">
+      <a href="#top" class="wordmark" aria-label="Edjaydan S. Ocampo Home">
+        <span class="wordmark-monogram">E.S.O.</span>
+        <span class="wordmark-divider" aria-hidden="true">/</span>
+        <span class="wordmark-name">Edjaydan S. Ocampo</span>
+      </a>
+
+      <button
+        class="menu-btn"
+        id="menu-btn"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+        aria-label="Toggle navigation menu"
+      >
+        <span>Menu</span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary Navigation">
+        <ul>
+          <li><a href="#manuscripts">Manuscripts</a></li>
+          <li><a href="#about">Biography</a></li>
+          <li><a href="#experience">Honors &amp; Roles</a></li>
+          <li><a href="#skills">Craft</a></li>
+          <li><a href="#contact" class="nav-pill">Inquire</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- 1. Artifact-First Hero Section -->
+    <section class="hero" id="top">
+      <div class="container hero-layout">
+        <div class="hero-main reveal">
+          <div class="hero-kicker">
+            <span class="kicker-line" aria-hidden="true"></span>
+            <span>Book Writer &bull; Essayist &bull; Cultural Storyteller</span>
+          </div>
+
+          <h1 class="hero-headline">
+            Edjaydan S. <em>Ocampo</em>
+          </h1>
+
+          <p class="hero-lead">
+            Writing books, bilingual essays (<em>sanaysay</em>), and civic narratives rooted in Philippine heritage, campus pressrooms, and youth advocacy.
+          </p>
+
+          <!-- Featured Opening Passage in First Viewport -->
+          <figure class="hero-epigraph">
+            <blockquote>
+              “Before I ever knew what a manuscript was, I knew how to keep paper dry against the sea wind between Catbalogan and Daram—recording who we were before the tide could wash the ink away.”
+            </blockquote>
+            <figcaption>
+              From <em>Before the Monsoon Crosses Samar</em> &mdash; Chapter I
+            </figcaption>
+          </figure>
+
+          <div class="hero-cta-row">
+            <a href="#manuscripts" class="btn btn-gold">Open Reading Desk</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+            <button type="button" class="btn btn-ghost" id="download-cv-btn">
+              Download CV (.txt)
+            </button>
+          </div>
+
+          <dl class="hero-index" aria-label="Author metadata">
+            <div class="index-item">
+              <dt class="index-label">Origin &amp; Base</dt>
+              <dd class="index-value">Daram, Samar &mdash; Manila, PH</dd>
+            </div>
+            <div class="index-item">
+              <dt class="index-label">Academic Home</dt>
+              <dd class="index-value">EARIST Manila (College of Education)</dd>
+            </div>
+            <div class="index-item">
+              <dt class="index-label">Languages &amp; Script</dt>
+              <dd class="index-value">English, Filipino &amp; Baybayin</dd>
+            </div>
+          </dl>
+        </div>
+
+        <aside class="hero-portrait reveal">
+          <figure class="portrait-card">
+            <div class="corner-marks" aria-hidden="true">
+              <span></span><span></span><span></span><span></span>
+            </div>
+            <!-- To add his photo, place portrait.jpg in this folder and replace .portrait-box with:
+                 <img class="portrait-photo" src="portrait.jpg" alt="Portrait of Edjaydan S. Ocampo" /> -->
+            <div class="portrait-box" role="img" aria-label="Archival author plate for Edjaydan S. Ocampo">
+              <div class="plate-top">
+                <span class="plate-label">AUTHOR PLATE // NO. 01</span>
+                <span class="plate-tag">MANILA &bull; SAMAR</span>
+              </div>
+              <div class="plate-center">
+                <span class="plate-initials">EO</span>
+                <span class="plate-rule" aria-hidden="true"></span>
+                <span class="plate-role">Book Writer &amp; Campus Journalist</span>
+                <span class="plate-sub">Drop <code>portrait.jpg</code> to replace plate</span>
+              </div>
+              <div class="plate-bottom">
+                <span>EARIST CED-SG</span>
+                <span>MHS NEWSETTE</span>
+              </div>
+            </div>
+            <figcaption class="portrait-meta">
+              <span>Edjaydan S. Ocampo</span>
+              <span>Portrait Edition</span>
+            </figcaption>
+          </figure>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 2. Dedicated Book Manuscripts & Sample Excerpts -->
+    <section class="section manuscripts-section" id="manuscripts">
+      <div class="container">
+        <div class="section-heading-row reveal">
+          <div>
+            <span class="chapter-tag">Chapter I &bull; The Reading Room</span>
+            <h2>Book Manuscripts &amp; Sample Excerpts</h2>
+          </div>
+          <p class="heading-note">
+            Pull a volume from the shelf or use <kbd>&larr;</kbd> <kbd>&rarr;</kbd> keys to switch manuscripts. Swap sample drafts anytime in <code>script.js</code>.
+          </p>
+        </div>
+
+        <!-- Tactile 3-Volume Book Shelf -->
+        <div class="shelf-grid reveal" role="tablist" aria-label="Book Manuscripts">
+          <button
+            type="button"
+            class="spine-card spine-crimson is-active"
+            role="tab"
+            aria-selected="true"
+            aria-controls="reading-desk"
+            id="shelf-tab-0"
+            data-book="0"
+          >
+            <div class="spine-head">
+              <span class="spine-num">VOL. I</span>
+              <span class="spine-status">In Progress</span>
+            </div>
+            <h3 class="spine-title">Before the Monsoon Crosses Samar</h3>
+            <span class="spine-meta">Literary &amp; Coming-of-Age Fiction</span>
+          </button>
+
+          <button
+            type="button"
+            class="spine-card spine-ochre"
+            role="tab"
+            aria-selected="false"
+            aria-controls="reading-desk"
+            id="shelf-tab-1"
+            data-book="1"
+          >
+            <div class="spine-head">
+              <span class="spine-num">VOL. II</span>
+              <span class="spine-status">Draft Complete</span>
+            </div>
+            <h3 class="spine-title">Mga Bakas sa Puti ng Papel</h3>
+            <span class="spine-meta">Bilingual Sanaysay &amp; Cultural Essays</span>
+          </button>
+
+          <button
+            type="button"
+            class="spine-card spine-slate"
+            role="tab"
+            aria-selected="false"
+            aria-controls="reading-desk"
+            id="shelf-tab-2"
+            data-book="2"
+          >
+            <div class="spine-head">
+              <span class="spine-num">VOL. III</span>
+              <span class="spine-status">Chapter Sample</span>
+            </div>
+            <h3 class="spine-title">The Chalkboard Republic</h3>
+            <span class="spine-meta">Narrative Nonfiction &amp; Civic History</span>
+          </button>
+        </div>
+
+        <!-- Galley Reading Desk -->
+        <article
+          class="reading-desk paper-mode reveal"
+          id="reading-desk"
+          role="tabpanel"
+          aria-labelledby="shelf-tab-0"
+        >
+          <div class="desk-progress" aria-hidden="true">
+            <span class="desk-progress-bar" id="desk-progress-bar"></span>
+          </div>
+
+          <div class="desk-bar">
+            <div class="desk-info">
+              <span class="desk-badge" id="desk-status">Manuscript in Progress &bull; ~65,000 Words</span>
+              <span class="desk-chapter" id="desk-chapter">Chapter I — The Ferry From Catbalogan</span>
+            </div>
+
+            <div class="desk-controls">
+              <button type="button" class="ctrl-btn" id="theme-toggle-btn" aria-pressed="false">
+                Night Ink
+              </button>
+              <button type="button" class="ctrl-btn" id="text-smaller" aria-label="Decrease reading font size">
+                A&minus;
+              </button>
+              <button type="button" class="ctrl-btn" id="text-larger" aria-label="Increase reading font size">
+                A+
+              </button>
+            </div>
+          </div>
+
+          <div class="desk-header">
+            <h3 id="desk-title">Before the Monsoon Crosses Samar</h3>
+            <p id="desk-synopsis">
+              Between an island barangay in Daram and a crowded boarding house in Sampaloc, a young student-writer pieces together his grandfather’s lost notebooks before the rainy season cuts the ferry route.
+            </p>
+          </div>
+
+          <div class="desk-prose" id="desk-prose" aria-live="polite">
+            <p>
+              Every crossing from Catbalogan to Daram began the same way: with the smell of diesel, salt spray, and damp newsprint folded twice inside a shirt pocket. Before I ever knew what a manuscript was, I knew how to keep paper dry against the sea wind.
+            </p>
+            <p>
+              My grandfather kept his ledger beneath a tin of biscuits on the highest shelf of the kitchen. In the margins beside tide charts and boat repairs, he wrote down the names of neighbors who had left for Manila and the dates they promised to return.
+            </p>
+            <p>
+              Years later, sitting under a flickering fluorescent bulb in Intramuros with a red editing pen in hand, I realized I was still doing the exact same thing—recording who we were before the tide could wash the ink away.
+            </p>
+          </div>
+
+          <div class="desk-footer">
+            <span class="desk-folio" id="desk-folio">Folio 01 of 03 &bull; 2 min read</span>
+            <a href="#contact" class="gold-link">Request Full Manuscript &rarr;</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 3. Biography & Academic Path -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="chapter-tag">Chapter II &bull; Profile</span>
+          <h2>Biography &amp; Academic Path</h2>
+        </div>
+
+        <div class="about-bento">
+          <article class="bio-narrative reveal">
+            <p class="bio-dropcap">
+              From island classrooms in Daram, Samar to student pressrooms in Intramuros and collegiate leadership in Sampaloc, <strong>Edjaydan S. Ocampo</strong> writes at the intersection of memory, culture, and public voice.
+            </p>
+            <p>
+              As former Senior English News Editor of <em>MHS Newsette</em> (founded 1951), Vice Editorial Staff and Guest Lecturer for <em>Pilak Baybayin Familia</em>, and Representative in the EARIST College of Education Student Government (CED-SG), his work bridges literary storytelling with grassroots civic engagement.
+            </p>
+            <blockquote class="pull-quote">
+              “Every community carries an unwritten book; a writer’s job is to listen closely enough to get the details right.”
+            </blockquote>
+          </article>
+
+          <aside class="education-timeline reveal" aria-label="Educational Background">
+            <h3>Educational Background</h3>
+            <ol class="timeline-list">
+              <li>
+                <span class="tl-year">Present</span>
+                <strong>Eulogio “Amang” Rodriguez Institute of Science and Technology (EARIST)</strong>
+                <span>College of Education (CED) &bull; Nagtahan St., Sampaloc, Manila</span>
+              </li>
+              <li>
+                <span class="tl-year">2021 – 2023</span>
+                <strong>ACLC College Paco (AMA Education System)</strong>
+                <span>Senior High School (Grades 11–12) &bull; Malate, Manila</span>
+              </li>
+              <li>
+                <span class="tl-year">2014 – 2020</span>
+                <strong>Manila High School (MHS)</strong>
+                <span>Junior High School &bull; Intramuros, Manila</span>
+              </li>
+              <li>
+                <span class="tl-year">2010 – 2014</span>
+                <strong>Parasan Elementary School (PES)</strong>
+                <span>Brgy. Parasan, Daram 1, Catbalogan, Samar</span>
+              </li>
+            </ol>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Selected Experience, Leadership & Honors -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-heading-row reveal">
+          <div>
+            <span class="chapter-tag">Chapter III &bull; Record</span>
+            <h2>Editorial Work, Leadership &amp; Honors</h2>
+          </div>
+
+          <div class="filter-bar" role="group" aria-label="Filter experience and honors">
+            <button type="button" class="filter-btn is-active" data-filter="all">All Records</button>
+            <button type="button" class="filter-btn" data-filter="editorial">Press &amp; Heritage</button>
+            <button type="button" class="filter-btn" data-filter="civic">Diplomacy &amp; Awards</button>
+          </div>
+        </div>
+
+        <div class="experience-grid" id="experience-grid" aria-live="polite">
+          <!-- Card 1 -->
+          <article class="exp-card reveal" data-category="editorial">
+            <div class="exp-top">
+              <span class="exp-tag">Journalism &amp; Campus Press</span>
+              <span class="exp-year">2019 – 2023</span>
+            </div>
+            <h3>MHS Newsette &amp; EARIST CED-SG</h3>
+            <p>
+              Senior English News Editor for <em>MHS Newsette</em> (est. 1951), Head of Captioning Committee for EARIST CED-SG, and DSPC News Writing competitor in Daram &amp; Jiabong, Samar.
+            </p>
+            <button type="button" class="detail-trigger" data-detail="0">
+              Inspect Full Record &rarr;
+            </button>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="exp-card reveal" data-category="editorial">
+            <div class="exp-top">
+              <span class="exp-tag">Heritage &amp; Baybayin</span>
+              <span class="exp-year">Cultural Advocacy</span>
+            </div>
+            <h3>Pilak Baybayin Familia &amp; National Library</h3>
+            <p>
+              Vice Editorial Staff and Guest Lecturer promoting pre-colonial Baybayin literacy, alongside public history forums at the National Library of the Philippines and Filipinas Heritage Library.
+            </p>
+            <button type="button" class="detail-trigger" data-detail="1">
+              Inspect Full Record &rarr;
+            </button>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="exp-card reveal" data-category="civic">
+            <div class="exp-top">
+              <span class="exp-tag">Literary &amp; Oratorical Honors</span>
+              <span class="exp-year">Medalist</span>
+            </div>
+            <h3>OCEJ Award, Sanaysay &amp; Storytelling</h3>
+            <p>
+              Recipient of the Outstanding Campus English Journalist (OCEJ) Award, Mila Tan Leadership Gold Medal, 2nd Place in EARIST KaDiPan <em>Pagsulat ng Sanaysay</em>, and 3rd Place in English Storytelling.
+            </p>
+            <button type="button" class="detail-trigger" data-detail="2">
+              Inspect Full Record &rarr;
+            </button>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="exp-card reveal" data-category="civic">
+            <div class="exp-top">
+              <span class="exp-tag">Global Youth Diplomacy</span>
+              <span class="exp-year">2018 – 2022</span>
+            </div>
+            <h3>UPF Asia Pacific, YWCA &amp; MapaKalamidad.PH</h3>
+            <p>
+              Philippine Youth Delegate to UPF Track II Diplomacy Summits, Disaster Risk Reduction Youth Ambassador, Manila DRRMO emergency responder (MHS BERT), and La Salle Debate Society representative.
+            </p>
+            <button type="button" class="detail-trigger" data-detail="3">
+              Inspect Full Record &rarr;
+            </button>
+          </article>
+        </div>
+
+        <!-- Scannable Archival Ledger of Key Recognitions & Seminars -->
+        <div class="archive-ledger reveal">
+          <div class="ledger-header">
+            <h3>Selected Honors, Seminars &amp; Literary Forums</h3>
+            <span>Verified Record</span>
+          </div>
+          <ul class="ledger-list">
+            <li>
+              <span class="ledger-year">Award</span>
+              <span class="ledger-title">Outstanding Campus English Journalist Award (OCEJ)</span>
+              <span class="ledger-org">MHS Newsette (Official English Publication, Est. 1951)</span>
+            </li>
+            <li>
+              <span class="ledger-year">Award</span>
+              <span class="ledger-title">Mila Tan Leadership Award &mdash; Gold Medal</span>
+              <span class="ledger-org">City Mayor’s Office</span>
+            </li>
+            <li>
+              <span class="ledger-year">2nd Place</span>
+              <span class="ledger-title">Pagsulat ng Sanaysay (Filipino Essay Writing)</span>
+              <span class="ledger-org">EARIST KaDiPan</span>
+            </li>
+            <li>
+              <span class="ledger-year">2023</span>
+              <span class="ledger-title">LAYAG III: Student Journalism Training (with ABS-CBN Chief of Reporters Jeff Canoy)</span>
+              <span class="ledger-org">The Wheel &mdash; Southern Luzon State University (SLSU)</span>
+            </li>
+            <li>
+              <span class="ledger-year">2022</span>
+              <span class="ledger-title">Aklatan at Pamana ng Bayan: Pagbuo ng Kasaysayang Lokal at Pangmadla</span>
+              <span class="ledger-org">Pambansang Aklatan ng Pilipinas (National Library)</span>
+            </li>
+            <li>
+              <span class="ledger-year">2021</span>
+              <span class="ledger-title">12th Philippine International Literary Festival (PILF): Reclaiming Our Narrative</span>
+              <span class="ledger-org">National Book Development Board (NBDB)</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Skills & Tools -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="chapter-tag">Chapter IV &bull; Practice</span>
+          <h2>Craft, Skills &amp; Tools</h2>
+        </div>
+
+        <div class="skills-columns">
+          <div class="skill-panel reveal">
+            <h3>Writing &amp; Narrative</h3>
+            <ul>
+              <li>Long-Form Book Manuscripts</li>
+              <li>Filipino Essays (Sanaysay)</li>
+              <li>News &amp; Feature Journalism</li>
+              <li>Oral Storytelling &amp; Speeches</li>
+              <li>Debate &amp; Policy Briefs</li>
+              <li>Bilingual Prose (English &amp; Filipino)</li>
+            </ul>
+          </div>
+
+          <div class="skill-panel reveal">
+            <h3>Editorial &amp; Cultural Literacy</h3>
+            <ul>
+              <li>Senior Newsroom Editing</li>
+              <li>Copyediting &amp; Captioning</li>
+              <li>Baybayin Script Instruction</li>
+              <li>Local &amp; Archival History Research</li>
+              <li>Fact-Checking &amp; Media Literacy</li>
+              <li>Workshop &amp; Guest Lecturing</li>
+            </ul>
+          </div>
+
+          <div class="skill-panel reveal">
+            <h3>Publishing &amp; Workflow</h3>
+            <ul>
+              <li>Google Docs &amp; Editorial Track Changes</li>
+              <li>Scrivener Manuscript Structuring</li>
+              <li>Notion Research Databases</li>
+              <li>Print &amp; Campus Publication Layout</li>
+              <li>Digital Publishing Preparation</li>
+              <li>Public Speaking &amp; Moderation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-split">
+        <div class="contact-copy reveal">
+          <span class="chapter-tag">Colophon &amp; Contact</span>
+          <h2>Open for Manuscripts, Commissions &amp; Talks.</h2>
+          <p>
+            Whether you are an editor, publisher, event organizer, or fellow writer, reach out directly by email or send a quick note below.
+          </p>
+
+          <div class="email-card">
+            <span class="email-caption">Direct Email (Replace with official address)</span>
+            <div class="email-actions">
+              <a href="mailto:edjaydan.ocampo@gmail.com" class="email-address">
+                edjaydan.ocampo@gmail.com
+              </a>
+              <button
+                type="button"
+                class="copy-pill"
+                id="copy-email-btn"
+                data-email="edjaydan.ocampo@gmail.com"
+              >
+                Copy Email
+              </button>
+            </div>
+            <span class="copy-feedback" id="copy-feedback" role="status" aria-live="polite"></span>
+          </div>
+
+          <div class="link-row" aria-label="External profiles">
+            <a
+              href="https://www.facebook.com/earistmnlcomselec/posts/%F0%9D%90%82%F0%9D%90%80%F0%9D%90%8C%F0%9D%90%8F%F0%9D%90%80%F0%9D%90%88%F0%9D%90%86%F0%9D%90%8D-%F0%9D%90%80%F0%9D%90%83-%F0%9D%9F%90%F0%9D%9F%91ced-sg-representative-edjaydan-s-ocampo-educational-backgroundpara/122110640150109230/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Facebook Profile Record
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://medium.com/" target="_blank" rel="noopener noreferrer">Medium</a>
+          </div>
+        </div>
+
+        <form class="inquiry-form reveal" id="inquiry-form">
+          <div class="form-header">
+            <h3>Send an Inquiry</h3>
+            <p>All fields are formatted into a ready-to-send email.</p>
+          </div>
+
+          <div class="field">
+            <label for="inq-name">Your Name</label>
+            <input
+              type="text"
+              id="inq-name"
+              name="name"
+              placeholder="Juan dela Cruz"
+              autocomplete="name"
+              required
+            />
+          </div>
+
+          <div class="field">
+            <label id="subject-label" for="subject-trigger">Subject</label>
+            <div class="custom-select" id="custom-subject">
+              <input
+                type="hidden"
+                id="inq-topic"
+                name="topic"
+                value="Full Manuscript Request"
+              />
+              <button
+                type="button"
+                class="select-trigger"
+                id="subject-trigger"
+                aria-haspopup="listbox"
+                aria-expanded="false"
+                aria-labelledby="subject-label subject-value"
+              >
+                <span id="subject-value">Full Manuscript Request</span>
+                <svg
+                  class="select-chevron"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M4 6L8 10L12 6"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+
+              <ul
+                class="select-menu"
+                id="subject-menu"
+                role="listbox"
+                aria-labelledby="subject-label"
+                hidden
+              >
+                <li
+                  class="select-option is-selected"
+                  role="option"
+                  data-value="Full Manuscript Request"
+                  aria-selected="true"
+                >
+                  <span>Full Manuscript Request</span>
+                  <span class="option-check" aria-hidden="true">&#10003;</span>
+                </li>
+                <li
+                  class="select-option"
+                  role="option"
+                  data-value="Book / Publishing Inquiry"
+                  aria-selected="false"
+                >
+                  <span>Book / Publishing Inquiry</span>
+                  <span class="option-check" aria-hidden="true">&#10003;</span>
+                </li>
+                <li
+                  class="select-option"
+                  role="option"
+                  data-value="Feature Writing / Editorial"
+                  aria-selected="false"
+                >
+                  <span>Feature Writing / Editorial</span>
+                  <span class="option-check" aria-hidden="true">&#10003;</span>
+                </li>
+                <li
+                  class="select-option"
+                  role="option"
+                  data-value="Baybayin / Writing Lecture"
+                  aria-selected="false"
+                >
+                  <span>Baybayin / Writing Lecture</span>
+                  <span class="option-check" aria-hidden="true">&#10003;</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="inq-body">Message</label>
+            <textarea
+              id="inq-body"
+              name="message"
+              rows="4"
+              placeholder="Share details about your publication, event, or collaboration..."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-gold btn-block">Compose Email &rarr;</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="colophon-footer">
+    <div class="container footer-row">
+      <p>&copy; <span id="year"></span> Edjaydan S. Ocampo. Set in Cormorant Garamond, Newsreader &amp; Plus Jakarta Sans.</p>
+      <a href="#top">Return to Top &uarr;</a>
+    </div>
+  </footer>
+
+  <!-- Modal for Full Credential Records -->
+  <div
+    class="record-modal"
+    id="record-modal"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="modal-heading"
+    hidden
+  >
+    <div class="record-modal-box">
+      <button type="button" class="close-modal" id="close-modal" aria-label="Close record dialog">
+        &times;
+      </button>
+      <span class="modal-kicker" id="modal-kicker"></span>
+      <h3 id="modal-heading"></h3>
+      <p class="modal-sub" id="modal-sub"></p>
+      <div class="modal-content" id="modal-content"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
